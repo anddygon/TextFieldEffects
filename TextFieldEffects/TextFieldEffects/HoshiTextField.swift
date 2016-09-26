@@ -141,7 +141,16 @@ import UIKit
         placeholderLabel.sizeToFit()
         layoutPlaceholderInTextRect()
         
-        animateViewsForTextEntry(isFirstResponder())
+        
+        
+        if isFirstResponder() {
+            animateViewsForTextEntry(true)
+        } else {
+            if text!.isNotEmpty {
+                animateViewsForTextEntry(false)
+            }
+        }
+        
     }
     
     private func placeholderFontFromFont(font: UIFont) -> UIFont! {
