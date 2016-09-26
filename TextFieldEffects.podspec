@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TextFieldEffects"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Custom drop in UITextFields effects."
 
   s.description  = <<-DESC
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/raulriera/TextFieldEffects.git", :tag => s.version.to_s }
+  s.source = { :git => "git@github.com:anddygon/TextFieldEffects.git", :tag => s.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
